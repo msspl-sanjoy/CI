@@ -30,6 +30,8 @@ error_reporting(E_ALL);
 			/*echo "<pre>";
 			print_r($this->pagination);die();*/
 			$data['page_links']=$this->pagination->create_links();
+			$data['sort_by']=$sort_by;
+			$data['sort_order']=$sort_order;
 			//print_r($data['page_links']);die();
 			//pagination end 
 
