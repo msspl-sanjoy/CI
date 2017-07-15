@@ -47,5 +47,6 @@
 	<div>
 		<?php echo $page_links;?>
 	</div>
+	<a href="">Hiiii</a>
 </body>
 </html>
