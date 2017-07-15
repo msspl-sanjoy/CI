@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div> 
-		Number of Employee: <?php echo $num_records;?>
+		Number of records: <?php echo $num_records;?>
 	</div>
 	<br>
 	<div>
