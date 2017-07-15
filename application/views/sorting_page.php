@@ -15,6 +15,7 @@
 	</style>
 </head>
 <body>
+
 	<div> 
 		Number of records: <?php echo $num_records;?>
 	</div>
