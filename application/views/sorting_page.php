@@ -40,9 +40,7 @@
 </head>
 <body>
 
-	<div> 
-		Number of records: <?php echo $num_records;?>
-	</div>
+	<h1><u>Sorting Example</u></h1>
 	<br>
 	<div>
 	    <table >
