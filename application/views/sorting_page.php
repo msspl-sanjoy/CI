@@ -17,7 +17,7 @@
 <body>
 
 	<div> 
-		1)Number of records: <?php echo $num_records;?>
+		Number of records: <?php echo $num_records;?>
 	</div>
 	<br>
 	<div>
