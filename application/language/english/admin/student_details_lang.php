@@ -1,0 +1,31 @@
+<?php
+	$lang['student_header']				= "Student Details Page";
+	$lang['student_name']				= "Name";
+	$lang['student_email']				= "Email Id";
+	$lang['student_mobile']				= "Mobile No";
+	$lang['student_address']			= "Address";
+	$lang['school_name']				= "School Name";
+	$lang['teacher_name']				= "Teacher Name";
+	$lang['teacher_email']				= "Teacher Email Id";
+	$lang['teacher_mobile']				= "Teacher Mobile No";
+	$lang['teacher_address']			= "Teacher Address";
+	$lang['welcome']					= "Welcome";
+	$lang['teacher_list']				= "Teacher List";
+	$lang['logout']						= "Logout";
+	$lang['assign']						= "Assign";
+	$lang['email_exits']				= "Email Already Exits";
+	$lang['captcha_notmatch']		    = "Please enter the correct code";
+	$lang['welcome_dash']		        = "Welcome to Dashboard ";
+	$lang['not_valid']		       		= "Your username or password is incorrect";
+	$lang['not_otp']		       		= "OTP doesnot match";
+	$lang['not_pass']		       		= "New and Old password doesnot match";
+	$lang['update_success']		       	= "Password Succesfully change";
+	$lang['update_unsuccess']		    = "Password change unsuccesfull";
+	//$lang['no_image']		    		= "No Previous Image available";
+	$lang['del_image']		    		= "Update Image succesfull ";
+	//$lang['no_file']		    		= "No  previous image Exits";
+	$lang['no_update']		    		= "Update Not Succesfull";
+	$lang['logout']		    			= "You are Succesfully logout";
+	$lang['no_select']		    		= "No Image Selected";
+	$lang['update_success']		    	= "Profile succesfully updated";
+?>
