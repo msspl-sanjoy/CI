@@ -17,6 +17,8 @@ error_reporting(E_ALL);
 			$this->load->model('sorting_model');
 			$results=$this->sorting_model->search($limit,$offset,$sort_by,$sort_order);
 			$data['employee']=$results['rows'];
+			/*echo "<pre>";
+			print_r($data['employee']);die();*/
 			$data['num_records']=$results['num_rows'];	
 			//pagination start
 			$this->load->library('pagination');

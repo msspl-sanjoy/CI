@@ -36,11 +36,32 @@
 			-moz-osx-font-smoothing: grayscale;
 
 		}
+		.find{
+			background-color: #ff5733;
+			width: 6em; 
+		    height: 2em;
+		}
 	</style>
 </head>
 <body>
 
-	<h1><u>Sorting Example</u></h1>
+	<h1><u>Sorting & Filtering Example</u></h1>
+	<form>
+			Gender:--<select name='gender'>
+						<option value="">Select</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+			         </select>
+		Designation:--<select name='designation'>
+						<option value="">Select</option>
+						<option value="developer">Developer</option>
+						<option value="designer">Designer</option>
+						<option value="bidder">Bidder</option>
+						<option value="TL">Team Leader</option>
+		         	  </select>	
+		<input type="submit" class="find" value="Find" name="find">
+
+	</form>
 	<br>
 	<div>
 	    <table >

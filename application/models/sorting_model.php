@@ -12,7 +12,7 @@ class Sorting_model extends CI_Model
  			'employee_name';
 
  			//fetching result
- 			$q=$this->db->select('id,employee_name,employee_age,employee_salary')
+ 			$q=$this->db->select('id,employee_name,employee_age,employee_salary,gender,designation')
  			  ->from('tbl_employee')
  			  ->limit($limit,$offset)
  			  ->order_by($sort_by,$sort_order);
